@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: white;
+}
+
+
+form{
+    display: grid;
+    place-items: center;
+    box-shadow: 0 0 2px;
+}
+
+input{
+    outline-color: bisque;
+    width: 300px;
+    margin: 7px;
+    padding: 6px;
+}
+.prg{
+color: red;
+}
+
+.ipt{
+    border: 1px dashed black;
+}
+
+.Rsn{
+    height: 90px;
+}
+
+.btn{
+    margin: 6px;
+    width: 20%;
+    height: 35px;
+    border: none;
+    border-radius: 6px;
+    background-color: yellowgreen;
+}
+
+.btn:hover{
+    background-color: rgb(204, 150, 255);
+    color: yellow;
+    cursor: pointer;
+}
+
+.btn::after{
+    background-color: green;
+    color: aqua;
+}
